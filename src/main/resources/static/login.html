@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ORMAN GENEL MÜDÜRLÜĞÜ</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1,h2 {
+            font-size: 18px; /* Başlık metni boyut küçültme */
+            /*margin: 10;*/
+        }
+        .center img {
+            max-width: 100px; /* Max genişlik */
+            height: auto;
+        }
+        h2 {
+            color: yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/tr/d/d4/Orman_Genel_M%C3%BCd%C3%BCrl%C3%BC%C4%9F%C3%BC_logo.png" alt="Yardım Masası" class="center.image">
+    <h1>ORMAN GENEL MÜDÜRLÜĞÜ</h1>
+    <h2>Yardım Masası</h2>
+    <form action="/user/giris" method="post">
+        <div>
+            <label for="kullaniciAdi">Kullanıcı Adı: </label>
+            <input type="text" id="kullaniciAdi" name="mail"> <!-- 'name' özelliği 'mail' olarak değiştirildi -->
+        </div>
+
+        <div>
+            <label for="sifre"> Şifre: </label>
+            <input type="password" id="sifre" name="parola"> <!-- 'name' özelliği 'parola' olarak değiştirildi ve tipi 'password' olarak güncellendi -->
+        </div>
+
+        <div>
+            <button type="submit">Giriş</button>
+        </div>
+    </form>
+
+
+
+    <!--label ve input alanı -->
+
+
+</body>
+</html>
